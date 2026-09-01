@@ -1,0 +1,10 @@
+# List of dependency paths relative to the Dependencies folder to load from. Use $port to load from the server port's folder.
+dependency_paths:
+- global
+- $port
+# List of plugin paths relative to the Plugins folder to load from. Use $port to load from the server port's folder.
+plugin_paths:
+- global
+- $port
+# Whether to allow loading plugins even if they were built for a different major version of LabAPI.
+load_unsupported_plugins: false
